@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, //samba1/jsindela/dcengr/Desktop/ELENBS/Block1.bdf
+source_file = 1, //samba1/jsindela/dcengr/Desktop/ELENBS/Waveform.vwf
+source_file = 1, //samba1/jsindela/dcengr/Desktop/ELENBS/db/MUXMAN.cbx.xml
+design_name = Block1
+instance = comp, \pin_name4~output , pin_name4~output, Block1, 1
+instance = comp, \IN2~input , IN2~input, Block1, 1
+instance = comp, \SEL~input , SEL~input, Block1, 1
+instance = comp, \IN1~input , IN1~input, Block1, 1
+instance = comp, \inst2~0 , inst2~0, Block1, 1
